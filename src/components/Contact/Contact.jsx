@@ -19,7 +19,7 @@ export default function Contact({ contact }) {
 
         <div className={styles.phone}>
           <HiPhone size={'20px'} title="phone icon" />
-          <span>{contact.number}</span>
+          <span>{contact.phone}</span>
         </div>
       </div>
 
